@@ -12,12 +12,15 @@ hist(mtcaboxplots)
 hist(mtcboxplotam)
 hist(mtcboxplotgear)
 hist(mtcboxplotcarb)
+
+
 #2. Check the probability distribution of all variables in mtcars 
-ans:
+
 hist(mtcars$mpg)x <- rnorm(1000, mean=100, sd=20)
 hist(x, probability=TRUE)
 xx <- seq(min(x), max(x), length=100)
 lines(xx, dnorm(xx, mean=100, sd=20))
+
 
 #3. Write a program to create boxplot for all variables.
 
