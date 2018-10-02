@@ -1,4 +1,4 @@
-# assignment7.1
+# assignment4.1
 #1. Histogram for all variables in a dataset mtcars. Write a program to create histograms for all columns. 
 
 mtcars
